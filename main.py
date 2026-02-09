@@ -55,7 +55,7 @@ class SandwichMachine:
                 return False
         return True
 
-
+### creates total to be used later
     def process_coins(self):
         total = 0
         print("input money here:")
