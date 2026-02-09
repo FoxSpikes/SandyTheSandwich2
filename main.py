@@ -90,7 +90,7 @@ class SandwichMachine:
         print(f"Ham: {self.machine_resources['ham']}")
         print(f"Cheese: {self.machine_resources['cheese']}")
 
-
+###main loop logic below
 ### Make an instance of SandwichMachine class and write the rest of the codes ###
 sandy = SandwichMachine(resources)
 turned_on = True
