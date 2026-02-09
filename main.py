@@ -66,7 +66,7 @@ class SandwichMachine:
         total += dollars + halfdollars + quarters + nickels
         return total
 
-
+### gives back money thats extra
     def transaction_result(self, coins, cost):
         """Return True when the payment is accepted, or False if money is insufficient.
            Hint: uerse the output of process_coins() function for cost input"""
