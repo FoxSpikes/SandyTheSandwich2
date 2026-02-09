@@ -43,7 +43,7 @@ class SandwichMachine:
            Hint: bind input variable to self variable"""
         self.machine_resources = machine_resources
 
-
+###returns true or false
     def check_resources(self, ingredients):
         """Returns True when order can be made, False if ingredients are insufficient."""
         ### for loop with key, value and ingredients using items
