@@ -77,7 +77,7 @@ class SandwichMachine:
         else:
             print("Sorry, that's not enough money. Money refunded.")
             return False
-
+### updates resources for sandwiches
     def make_sandwich(self, sandwich_size, order_ingredients):
         """Deduct the required ingredients from the resources.
            Hint: no output"""
